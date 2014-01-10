@@ -29,23 +29,22 @@ Official MyBB forum http://community.mybb.com/ or my github https://github.com/D
 **Installation**:
 -----------------
 
-	1. Upload everything from upload folder to your forum root (where index.php, forumdisplay.php etc. are).
-	2. Activate plugin in ACP -> Configuration -> Plugins.
-	3. Click Configuration to edit settings.
+1. Upload everything from upload folder to your forum root (where index.php, forumdisplay.php etc. are).
+2. Activate plugin in ACP -> Configuration -> Plugins.
+3. Click Configuration to edit settings.
 
 **Templates troubleshooting**:
 ------------------------------
 
-	* Globally - add {$mybb->user['flag']} to any template
-	* Memberlist - edit memberlist_user template - add {$user['flag']}
-	* Profile - edit member_profile template - add {$memprofile['flag']}
-	* Postbit - edit postbit and/or postbit_classic template(s) - add {$post['flag']}
-	* Who's Online - edit online_row template - add {$user['flag']}
+* Globally - add {$mybb->user['flag']} to any template
+* Memberlist - edit memberlist_user template - add {$user['flag']}
+* Profile - edit member_profile template - add {$memprofile['flag']}
+* Postbit - edit postbit and/or postbit_classic template(s) - add {$post['flag']}
+* Who's Online - edit online_row template - add {$user['flag']}
 
 **NOTE**: You can add flag images for specific themes by creating flags folder in theme directory. If there is no folder, it will use default images/flags.
 
-This product includes GeoLite data created by MaxMind, available from
-<a href="http://www.maxmind.com">http://www.maxmind.com</a>. 
+This product includes GeoLite data created by MaxMind, available from <a href="http://www.maxmind.com">http://www.maxmind.com</a>. 
 
 Flag icons in package made by:
 Copyright (c) 2013 Go Squared Ltd. http://www.gosquared.com/
